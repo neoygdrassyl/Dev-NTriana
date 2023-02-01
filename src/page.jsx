@@ -13,6 +13,7 @@ import IMG3 from './assets/img/portfolio-3.jpg'
 import IMG4 from './assets/img/portfolio-4.jpg'
 import IMG5 from './assets/img/portfolio-5.jpg'
 import IMG6 from './assets/img/portfolio-6.jpg'
+import IMG7 from './assets/img/portfolio-7.png'
 
 let title = () => <header class="masthead d-flex align-items-center">
     <div class="container px-4 px-lg-5 text-center text-light">
@@ -179,7 +180,8 @@ let works = () => <section class="content-section" id="works">
             <h2 class="mb-5">Profesional & Personal Projects</h2>
         </div>
         <div class="row gx-0">
-            <div class="col-lg-6">
+
+            <div class="col-lg-4">
                 <a class="portfolio-item" href="#!">
                     <div class="caption">
                         <div class="caption-content">
@@ -192,7 +194,7 @@ let works = () => <section class="content-section" id="works">
                     <img class="img-fluid" src={IMG1} alt="..." />
                 </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <a class="portfolio-item" href="#!">
                     <div class="caption">
                         <div class="caption-content">
@@ -206,7 +208,7 @@ let works = () => <section class="content-section" id="works">
                     <img class="img-fluid" src={IMG2} alt="..." />
                 </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <a class="portfolio-item" href="#!">
                     <div class="caption">
                         <div class="caption-content">
@@ -221,7 +223,7 @@ let works = () => <section class="content-section" id="works">
                     <img class="img-fluid" src={IMG3} alt="..." />
                 </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <a class="portfolio-item" href="#!">
                     <div class="caption">
                         <div class="caption-content">
@@ -235,7 +237,7 @@ let works = () => <section class="content-section" id="works">
                     <img class="img-fluid" src={IMG4} alt="..." />
                 </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <a class="portfolio-item" href="#!">
                     <div class="caption">
                         <div class="caption-content">
@@ -249,7 +251,7 @@ let works = () => <section class="content-section" id="works">
                     <img class="img-fluid" src={IMG5} alt="..." />
                 </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <a class="portfolio-item" href="#!">
                     <div class="caption">
                         <div class="caption-content">
@@ -261,6 +263,20 @@ let works = () => <section class="content-section" id="works">
                         </div>
                     </div>
                     <img class="img-fluid" src={IMG6} alt="..." />
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <a class="portfolio-item" href="#!">
+                    <div class="caption">
+                        <div class="caption-content">
+                        <div class="h2">STEAM - sales tracker</div>
+                            <div class="h2"><a className='text-secondary' href='https://xix84i.deta.dev/tracker/' target={'_blank'}>Live Link</a></div>
+                            <div class="h2"><a className='text-secondary' href='https://github.com/neoygdrassyl/steam-sales-tracker/tree/main' target={'_blank'}>Repository</a></div>
+                            <p class="mb-0">Steam sales tracker list</p>
+                            <p class="mb-0 text-bold">Technologies: Python, FAST API</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src={IMG7} alt="..." />
                 </a>
             </div>
         </div>
