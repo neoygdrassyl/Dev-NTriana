@@ -1,9 +1,11 @@
 
 //import 'bootstrap/dist/css/bootstrap.min.css';
 //import './App.css'
+import './styles.weschools.css'
 import './styles.css'
 import Page from './page';
 import Header from './header';
+
 
 function App() {
   return (
