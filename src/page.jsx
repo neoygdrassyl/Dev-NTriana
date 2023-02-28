@@ -5,7 +5,7 @@ import {
 import { GrMysql } from 'react-icons/gr';
 import { MdOutlineContactPage, MdLanguage, MdOutlineEmail } from 'react-icons/md';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiNextdotjs, SiPostgresql, SiFirebase, SiGodotengine, SiFastapi, SiMongodb, SiGoland} from 'react-icons/si';
+import { SiNextdotjs, SiPostgresql, SiFirebase, SiGodotengine, SiFastapi, SiMongodb, SiGoland, SiNestjs } from 'react-icons/si';
 import { CgCloud } from 'react-icons/cg';
 
 // IMGS
@@ -156,6 +156,18 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
             <div class="col mb-5 mb-md-0 mb-lg-0">
                 <div class="w3-light-grey w3-round-xlarge">
                     <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>EXPERT</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row gx-4 gx-lg-5 mb-2">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto"><SiNestjs /></span>
+                <strong>Nest js</strong>
+            </div>
+            <div class="col mb-5 mb-md-0 mb-lg-0">
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "50%" }}>AVERAGE</div>
                 </div>
             </div>
         </div>
