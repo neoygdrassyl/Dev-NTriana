@@ -5,11 +5,11 @@ import {
 import { GrMysql } from 'react-icons/gr';
 import { MdOutlineContactPage, MdLanguage, MdOutlineEmail } from 'react-icons/md';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiNextdotjs, SiPostgresql, SiFirebase, SiGodotengine, SiFastapi } from 'react-icons/si';
+import { SiNextdotjs, SiPostgresql, SiFirebase, SiGodotengine, SiFastapi, SiMongodb, SiGoland} from 'react-icons/si';
 import { CgCloud } from 'react-icons/cg';
 
 // IMGS
-import PDF from './assets/CV_2023.pdf'
+import PDF from './assets/2023_CV_2_en.pdf'
 import IMG1 from './assets/img/portfolio-1.jpg'
 import IMG2 from './assets/img/portfolio-2.jpg'
 import IMG3 from './assets/img/portfolio-3.jpg'
@@ -88,6 +88,17 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><FaPython /></span>
                 <strong>Python</strong>
+            </div>
+            <div class="col mb-5 mb-md-0 mb-lg-0">
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 mb-2">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto"><SiGoland /></span>
+                <strong>Golang</strong>
             </div>
             <div class="col mb-5 mb-md-0 mb-lg-0">
                 <div class="w3-light-grey w3-round-xlarge">
@@ -183,6 +194,17 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
                 </div>
             </div>
         </div>
+        <div class="row gx-4 gx-lg-5 mb-2">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto"><SiGoland /></span>
+                <strong>Gin</strong>
+            </div>
+            <div class="col mb-5 mb-md-0 mb-lg-0">
+                <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
+                </div>
+            </div>
+        </div>
 
 
         <div class="content-section-heading">
@@ -215,8 +237,8 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
 
         <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span class="service-icon rounded-circle mx-auto"><FaDatabase /></span>
-                <strong>NoSQL</strong>
+                <span class="service-icon rounded-circle mx-auto"><SiMongodb /></span>
+                <strong>MongoDB</strong>
             </div>
             <div class="col mb-5 mb-md-0 mb-lg-0">
                 <div class="w3-light-grey w3-round-xlarge">
