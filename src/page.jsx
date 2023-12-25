@@ -9,7 +9,7 @@ import { SiNextdotjs, SiPostgresql, SiFirebase, SiGodotengine, SiFastapi, SiMong
 import { CgCloud } from 'react-icons/cg';
 
 // IMGS
-import PDF from './assets/2023_CV_2_en.pdf'
+import PDF from './assets/2024_CV_en.pdf'
 import IMG1 from './assets/img/portfolio-1.jpg'
 import IMG2 from './assets/img/portfolio-2.jpg'
 import IMG3 from './assets/img/portfolio-3.jpg'
