@@ -7,9 +7,10 @@ import { MdOutlineContactPage, MdLanguage, MdOutlineEmail } from 'react-icons/md
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiNextdotjs, SiPostgresql, SiFirebase, SiGodotengine, SiFastapi, SiMongodb, SiGoland, SiNestjs } from 'react-icons/si';
 import { CgCloud } from 'react-icons/cg';
+import { AiOutlineConsoleSql } from "react-icons/ai";
 
 // IMGS
-import PDF from './assets/2024_CV_en.pdf'
+import PDF from './assets/CV_2025.pdf'
 import IMG1 from './assets/img/portfolio-1.jpg'
 import IMG2 from './assets/img/portfolio-2.jpg'
 import IMG3 from './assets/img/portfolio-3.jpg'
@@ -50,7 +51,7 @@ let resume = () => <section class="content-section bg-light" id="resume">
 let skills = () => <section class="content-section bg-primary text-white text-center" id="skills">
     <div class="container px-4 px-lg-5">
         <div class="content-section-heading">
-            <h2 class="text-secondary mb-0">Skill sets</h2>
+            <h2 class="text-secondary mb-0">SKILLS</h2>
             <h3 class="mb-5">Acquired knowledge, used in professional environments</h3>
         </div>
 
@@ -65,72 +66,32 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
                 <span class="service-icon rounded-circle mx-auto"><IoLogoJavascript /></span>
                 <strong>JavaScript</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>EXPERT</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><FaPhp /></span>
                 <strong>PHP</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>EXPERT</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><FaPython /></span>
                 <strong>Python</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
-                </div>
-            </div>
-        </div>
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><SiGoland /></span>
                 <strong>Golang</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
-                </div>
-            </div>
         </div>
 
         <div class="row gx-4 gx-lg-5 mb-2">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0"></div>
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><FaHtml5 /></span>
                 <strong>HTML5</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>EXPERT</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><FaCss3Alt /></span>
                 <strong>CSS</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "75%" }}>ADVANCE</div>
-                </div>
-            </div>
         </div>
-
+        <br/>
 
         <div class="content-section-heading">
             <h3 class="my-4 text-secondary">Frameworks</h3>
@@ -141,83 +102,39 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
                 <span class="service-icon rounded-circle mx-auto"><FaReact /></span>
                 <strong>React</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>EXPERT</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><FaNodeJs /></span>
                 <strong>Node JS</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>EXPERT</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><SiNestjs /></span>
                 <strong>Nest js</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "50%" }}>AVERAGE</div>
-                </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto"><SiNextdotjs /></span>
+                <strong>Next js</strong>
             </div>
         </div>
 
-        <div class="row gx-4 gx-lg-5 mb-2">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span class="service-icon rounded-circle mx-auto"><SiNextdotjs /></span>
-                <strong>Next js 13</strong>
-            </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "50%" }}>AVERAGE</div>
-                </div>
-            </div>
-        </div>
+
+
 
         <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><FaLaravel /></span>
                 <strong>Lavarel</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "50%" }}>AVERAGE</div>
-                </div>
-            </div>
-        </div>
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><SiFastapi /></span>
                 <strong>FAST-API</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
-                </div>
-            </div>
-        </div>
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><SiGoland /></span>
                 <strong>Gin</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
-                </div>
-            </div>
         </div>
 
+        <br/>
 
         <div class="content-section-heading">
             <h3 class="my-4 text-secondary">Databases</h3>
@@ -225,39 +142,60 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
 
         <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto"><AiOutlineConsoleSql /></span>
+                <strong>ServerSQL</strong>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><GrMysql /></span>
                 <strong>MySQL</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "75%" }}>ADVANCE</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><SiPostgresql /></span>
                 <strong>PostgresSQL</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "50%" }}>AVERAGE</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row gx-4 gx-lg-5 mb-2">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                 <span class="service-icon rounded-circle mx-auto"><SiMongodb /></span>
                 <strong>MongoDB</strong>
             </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
-                </div>
+        </div>
+
+        <br/>
+
+
+        <div class="content-section-heading">
+            <h3 class="my-4 text-secondary">Amazon Web services</h3>
+        </div>
+        <div class="row gx-4 gx-lg-5 mb-4">
+            <div class="col">
+                <span class="service-icon rounded-circle mx-auto mb-3"><FaAws /></span>
+                <strong>API Gateway</strong>
+            </div>
+            <div class="col">
+                <span class="service-icon rounded-circle mx-auto mb-3"><FaAws /></span>
+                <strong>Serverless</strong>
+            </div>
+            <div class="col">
+                <span class="service-icon rounded-circle mx-auto mb-3"><FaAws /></span>
+                <strong>S2 Buckets</strong>
+            </div>
+            <div class="col">
+                <span class="service-icon rounded-circle mx-auto mb-3"><FaAws /></span>
+                <strong>Dynamo DB</strong>
             </div>
         </div>
+        <div class="row gx-4 gx-lg-5 mb-4">
+            <div class="col">
+                <span class="service-icon rounded-circle mx-auto mb-3"><FaAws /></span>
+                <strong>Lambda</strong>
+            </div>
+            <div class="col">
+                <span class="service-icon rounded-circle mx-auto mb-3"><FaAws /></span>
+                <strong>Code Pipeline</strong>
+            </div>
+        </div>
+
+        <br/>
+
 
         <div class="content-section-heading">
             <h3 class="my-4 text-secondary">Tools & Others</h3>
@@ -274,9 +212,6 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
             </div>
         </div>
 
-        <div class="content-section-heading">
-            <h3 class="my-4 text-secondary">Cloud Providers</h3>
-        </div>
         <div class="row gx-4 gx-lg-5 mb-4">
             <div class="col">
                 <span class="service-icon rounded-circle mx-auto mb-3"><FaCpanel /></span>
@@ -294,65 +229,63 @@ let skills = () => <section class="content-section bg-primary text-white text-ce
                 <span class="service-icon rounded-circle mx-auto mb-3"><FaDigitalOcean /></span>
                 <strong>Digital Ocean</strong>
             </div>
-            <div class="col">
-                <span class="service-icon rounded-circle mx-auto mb-3"><FaAws /></span>
-                <strong>Amazon Web Service</strong>
-            </div>
         </div>
 
+        <br/>
+        
         <div class="content-section-heading">
-            <h3 class="my-4 text-secondary">Spoken languages</h3>
+            <h3 class="my-4 text-secondary">LANGUAGES</h3>
         </div>
 
         <div class="row gx-4 gx-lg-5 mb-4">
 
-        <div class="row gx-4 gx-lg-5 mb-2">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
-                <strong>English</strong>
-            </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>BILINGUAL (B2/C1)</div>
+            <div class="row gx-4 gx-lg-5 mb-2">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
+                    <strong>English</strong>
+                </div>
+                <div class="col mb-5 mb-md-0 mb-lg-0">
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>BILINGUAL (C1)</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row gx-4 gx-lg-5 mb-2">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
-                <strong>Spanish</strong>
-            </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>NATIVE</div>
+            <div class="row gx-4 gx-lg-5 mb-2">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
+                    <strong>Spanish</strong>
+                </div>
+                <div class="col mb-5 mb-md-0 mb-lg-0">
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "100%" }}>NATIVE</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row gx-4 gx-lg-5 mb-2">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
-                <strong>French</strong>
-            </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
+            <div class="row gx-4 gx-lg-5 mb-2">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
+                    <strong>French</strong>
+                </div>
+                <div class="col mb-5 mb-md-0 mb-lg-0">
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "75%" }}>MODERATE (B1)</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row gx-4 gx-lg-5 mb-2">
-            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
-                <strong>German</strong>
-            </div>
-            <div class="col mb-5 mb-md-0 mb-lg-0">
-                <div class="w3-light-grey w3-round-xlarge">
-                    <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>BASIC</div>
+            <div class="row gx-4 gx-lg-5 mb-2">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <span class="service-icon rounded-circle mx-auto"><MdLanguage /></span>
+                    <strong>German</strong>
+                </div>
+                <div class="col mb-5 mb-md-0 mb-lg-0">
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-amber w3-round-xlarge mt-3" style={{ width: "25%" }}>LEARNING...</div>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
     </div>
@@ -490,7 +423,7 @@ let contact = () => <footer class="footer text-center content-section bg-primary
                 <p class="text-faded mb-0">ing.natriana@gmail.com</p>
             </div>
         </div>
-        <p class="small mb-0">Developed and Programmed by Nestor Triana 2023</p>
+        <p class="small mb-0">Developed and Programmed by Nestor Triana 2025</p>
         <p class="small mb-0">Title Foto by <a className='text-secondary' href="https://unsplash.com/@hishahadat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shahadat Rahman</a> at <a className='text-secondary' href="https://unsplash.com/es/s/fotos/programming-wallpaper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         <p class="small mb-0">Page Template by <a className='text-secondary' href="https://startbootstrap.com/">StartBootstrap</a> at <a className='text-secondary' href="https://github.com/startbootstrap/startbootstrap-stylish-portfolio">Github</a></p>
 

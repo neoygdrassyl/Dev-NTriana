@@ -17,7 +17,7 @@ const [active, setActive] = useState('/#')
         <Nav.Link href="/#resume">RESUME</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/#skills">SKILL SETS</Nav.Link>
+        <Nav.Link href="/#skills">SKILLS</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="/#works">WORKS</Nav.Link>
